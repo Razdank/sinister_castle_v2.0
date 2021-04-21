@@ -1,0 +1,1107 @@
+*{
+	padding: 0;
+	margin: 0;
+	background: gray;
+	user-select: none;
+	outline: 0;
+}
+.bg{
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 0;
+	height: 720px;
+	width: 1280px;
+	background: url(asf.png);
+}
+.bloc{
+	position: fixed;
+	z-index: 2;
+	height: 80px;
+	width: 80px;
+	background: url(hero00.gif);
+}
+.trade{
+	position: fixed;
+	z-index: 0;
+	height: 80px;
+	width: 80px;
+	background: url(torg1.png);
+}
+.trade2{
+	position: fixed;
+	z-index: 0;
+	height: 80px;
+	width: 80px;
+	background: url(torg2.png);
+}
+.save{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(save.gif);
+}
+.herro10{
+	position: fixed;
+	z-index: 2;
+	height: 80px;
+	width: 80px;
+	background: url(hero10.gif);
+}
+.herro20{
+	position: fixed;
+	z-index: 2;
+	height: 80px;
+	width: 80px;
+	background: url(hero20.gif);
+}
+.herro30{
+	position: fixed;
+	z-index: 2;
+	height: 80px;
+	width: 80px;
+	background: url(hero30.gif);
+}
+.bloc2{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(stena.png);
+}
+.tp{
+	position: fixed;
+	z-index: 0;
+	height: 80px;
+	width: 80px;
+	background: url(tp.gif);
+}
+.defzlo{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(defzlo.png);
+}
+.zlo{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(zlo.png);
+}
+.battle{
+	display: none;
+	position: fixed;
+	z-index: 3;
+	height: 500px;
+	width: 980px;
+	left: 150px;
+	top: 110px;
+	background: none;
+}
+.full_information{
+	display: none;
+	position: fixed;
+	z-index: 5;
+	height: 500px;
+	width: 980px;
+	left: 150px;
+	top: 110px;
+	padding: 1px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 2px solid black;
+	color: black;
+}
+.menu{
+	border-radius: 8px;
+	position: fixed;
+	z-index: 4;
+	height: auto;
+	width: 210px;
+	left: -216px;
+	top: 0px;
+	transition: 0.3s;
+	background: #D8D8D8;
+	border: 2px solid black;
+	padding: 1px;
+}
+.butt{
+	padding: 1px;
+	margin: 1px;
+	background: #F4FA58;
+	border-radius: 6px;
+}
+.enemy{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: black;
+}
+.heroimage{
+	display: inline-block;
+	margin-left: 120px;
+	margin-top: 40px;
+	background: url(hero00.gif);
+	height: 160px;
+	width: 160px;
+	background-size: cover;
+}
+.heroimage2{
+	display: inline-block;
+	margin-left: 120px;
+	margin-top: 40px;
+	background: url(hero10.gif);
+	height: 160px;
+	width: 160px;
+	background-size: cover;
+}
+.heroimage3{
+	display: inline-block;
+	margin-left: 120px;
+	margin-top: 40px;
+	background: url(hero20.gif);
+	height: 160px;
+	width: 160px;
+	background-size: cover;
+}
+.heroimage4{
+	display: inline-block;
+	margin-left: 120px;
+	margin-top: 40px;
+	background: url(hero30.gif);
+	height: 160px;
+	width: 160px;
+	background-size: cover;
+}
+.heroimagep{
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 2px;
+	display: inline-block;
+	width: 100px;
+	background: #D8D8D8;
+}
+.enemyimage00{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo00.gif);
+	background-size: cover;
+}
+.enemyimage10{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo10.gif);
+	background-size: cover;
+}
+.enemyimage20{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo20.gif);
+	background-size: cover;
+}
+.enemyimage30{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo30.gif);
+	background-size: cover;
+}
+.enemyimage40{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo40.gif);
+	background-size: cover;
+}
+.enemyimage50{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo50.gif);
+	background-size: cover;
+}
+.enemyimage60{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo60.gif);
+	background-size: cover;
+}
+.enemyimage70{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo70.gif);
+	background-size: cover;
+}
+.enemyimage80{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo80.gif);
+	background-size: cover;
+}
+.enemyimage90{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo90.gif);
+	background-size: cover;
+}
+.enemyimage100{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo100.gif);
+	background-size: cover;
+}
+.enemyimage110{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo110.gif);
+	background-size: cover;
+}
+.enemyimage120{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo120.gif);
+	background-size: cover;
+}
+.enemyimage130{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo130.gif);
+	background-size: cover;
+}
+.enemyimage140{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo140.gif);
+	background-size: cover;
+}
+.enemyimage150{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo150.gif);
+	background-size: cover;
+}
+.enemyimage160{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo160.gif);
+	background-size: cover;
+}
+.enemyimage170{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo170.gif);
+	background-size: cover;
+}
+.enemyimage180{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo180.gif);
+	background-size: cover;
+}
+.enemyimage190{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo190.gif);
+	background-size: cover;
+}
+.enemyimage200{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo200.gif);
+	background-size: cover;
+}
+.enemyimage210{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo210.gif);
+	background-size: cover;
+}
+.enemyimage220{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo220.gif);
+	background-size: cover;
+}
+.enemyimage230{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo230.gif);
+	background-size: cover;
+}
+.enemyimage240{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo240.gif);
+	background-size: cover;
+}
+.enemyimage250{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo250.gif);
+	background-size: cover;
+}
+.enemyimage260{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo260.gif);
+	background-size: cover;
+}
+.enemyimage1010{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1010.gif);
+	background-size: cover;
+}
+.enemyimage1020{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1020.gif);
+	background-size: cover;
+}
+.enemyimage1030{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1030.gif);
+	background-size: cover;
+}
+.enemyimage1040{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1040.gif);
+	background-size: cover;
+}
+.enemyimage1050{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1050.gif);
+	background-size: cover;
+}
+.enemyimage1060{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1060.gif);
+	background-size: cover;
+}
+.enemyimage1070{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1070.gif);
+	background-size: cover;
+}
+.enemyimage1080{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1080.gif);
+	background-size: cover;
+}
+.enemyimage1090{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1090.gif);
+	background-size: cover;
+}
+.enemyimage1100{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1100.gif);
+	background-size: cover;
+}
+.enemyimage1110{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1110.gif);
+	background-size: cover;
+}
+.enemyimage1120{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1120.gif);
+	background-size: cover;
+}
+.enemyimage1130{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1130.gif);
+	background-size: cover;
+}
+.enemyimage1140{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 40px;
+	height: 160px;
+	width: 160px;
+	background: url(zlo1140.gif);
+	background-size: cover;
+}
+.enemyimagep{
+	margin-left: 4px;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 2px;
+	display: inline-block;
+	width: 110px;
+	background: #D8D8D8;
+}
+.dead{
+	display: inline-block;
+	margin-left: -280px;
+	height: 160px;
+	width: 160px;
+	background: url(dead.png);
+	background-size: cover;
+}
+.battletop{
+	height: 250px;
+	background: inherit;
+	border: 4px solid black;
+	width: 980px;
+	border-bottom: 0px solid black;
+	border-radius: 20px 20px 0 0;
+	background: url(asf.png);
+}
+.battlebottom{
+	height: 250px;
+	border: 4px solid black;
+	background: #D8D8D8;
+	width: 980px;
+	border-radius: 0 0 20px 20px;
+}
+.bbutt1{
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+.bbutt1:hover{
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	border-radius: 8px;
+	background: #E6E6E6;
+	border: 1px solid black;
+}
+.bbuttbuyy{
+	padding: 1px;
+	margin: 4px;
+	width: 260px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+.bbuttbuyy:hover{
+	padding: 1px;
+	margin: 4px;
+	width: 260px;
+	border-radius: 8px;
+	background: #E6E6E6;
+	border: 1px solid black;
+}
+.bbuttpro{
+	position: fixed;
+	z-index:5;
+	padding: 1px;
+	width: 100px;
+	height: 100px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 2px solid black;
+	color: black;
+	font-weight: bold;
+}
+.bbuttpro:hover{
+	position: fixed;
+	z-index:5;
+	padding: 1px;
+	width: 100px;
+	height: 100px;
+	background: #E6E6E6;
+	border-radius: 8px;
+	border: 2px solid black;
+	color: black;
+	font-weight: bold;
+}
+.bbuttpro2{
+	padding: 1px;
+	margin: 2px;
+	margin-left: 918px;
+	width: 60px;
+	height: 30px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.bbuttpro2:hover{
+	padding: 1px;
+	margin: 2px;
+	margin-left: 918px;
+	width: 60px;
+	height: 30px;
+	background: #E6E6E6;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.bbuttx{
+	margin-left: 4px;
+	margin-top: 4px;
+	padding: 1px;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	width: 226px;
+	border-radius: 8px;
+	background: #BDBDBD;
+	border: 1px solid black;
+}
+.bbuttx:hover{
+	margin-left: 4px;
+	margin-top: 4px;
+	padding: 1px;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	width: 226px;
+	border-radius: 8px;
+	background: #E6E6E6;
+	border: 1px solid black;
+}
+.information{
+	margin-top: 4px;
+	position: absolute;
+	display: inine-block;
+	padding: 2px;
+	top: 258px;
+	left: 246px;
+	background: #D8D8D8;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+.infohero{
+	background: none;
+}
+.question{
+	padding: 1px;
+	border-radius: 8px;
+	border: 2px solid black;
+	display: none;
+	position: fixed;
+	z-index: 3;
+	height: auto;
+	width: 236px;
+	top: 300px;
+	left: 518px;
+	background: #D8D8D8;
+}
+.question_buy{
+	padding: 1px;
+	border-radius: 8px;
+	border: 2px solid black;
+	display: none;
+	position: fixed;
+	z-index: 3;
+	height: auto;
+	width: 270px;
+	top: 300px;
+	left: 484px;
+	background: #D8D8D8;
+}
+.question2{
+	background: #D8D8D8;
+}
+.items{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(predmvz0.png);
+}
+.items1{
+	position: fixed;
+	z-index: 1;
+	left: 80px;
+	top: 80px;
+	display: block;
+	background: url(predmvz0.png);
+}
+.items2{
+	position: fixed;
+	z-index: 1;
+	left: 80px;
+	top: 80px;
+	display: block;
+	background: url(predmvz1.png);
+}
+.relicss{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(predmvz3.png);
+}
+.relicss1{
+	position: fixed;
+	z-index: 1;
+	left: 80px;
+	top: 560px;
+	display: block;
+	background: url(predmvz3.png);
+}
+.relicss2{
+	position: fixed;
+	z-index: 1;
+	left: 80px;
+	top: 560px;
+	display: block;
+	background: url(predmvz4.png);
+}
+.disposable_item{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(predmvz5.png);
+}
+.disposable_item1{
+	position: fixed;
+	z-index: 1;
+	left: 1120px;
+	top: 80px;
+	display: block;
+	background: url(predmvz5.png);
+}	
+.disposable_item2{
+	position: fixed;
+	z-index: 1;
+	left: 1120px;
+	top: 80px;
+	display: block;
+	background: url(predmvz6.png);
+}
+.weapon{
+	position: fixed;
+	z-index: 1;
+	height: 80px;
+	width: 80px;
+	background: url(predmvz7.png);
+}
+.weapon1{
+	position: fixed;
+	z-index: 1;
+	left: 1120px;
+	top: 80px;
+	display: block;
+	background: url(predmvz7.png);
+}
+.weapon2{
+	position: fixed;
+	z-index: 1;
+	left: 1120px;
+	top: 560px;
+	display: block;
+	background: url(predmvz8.png);
+}
+.bvm{
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 1px;
+	margin-bottom: 2px;
+	background: #D8D8D8;
+}
+.bvm2{
+	border: 1px solid black;
+	border-radius: 6px;
+	width: 400px;
+	padding: 1px;
+	margin-bottom: 2px;
+	background: #D8D8D8;
+	color: black;
+}
+.bvm3{
+	border: 1px solid black;
+	border-radius: 6px;
+	width: 224px;
+	padding: 1px;
+	margin-bottom: 2px;
+	background: #BDBDBD;
+	color: black;
+}
+.bvm4{
+	border: 1px solid black;
+	padding: 1px;
+	background: #BDBDBD;
+	color: black;
+	text-align: center;
+}
+.bvm5{
+	font-size: 18px;
+	font-weight: bold;
+	border: 3px solid black;
+	padding: 1px;
+	background: #E6E6E6;
+	color: black;
+	text-align: center;
+}
+.over{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	height: 520px;
+	width: 840px;
+	background: #BDBDBD;
+	padding-top: 200px;
+	padding-left: 440px;
+	text-align: center;
+	display: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	opacity: 0.85;
+}
+.over2{
+	width: 410px;
+	background: #BDBDBD;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.over3{
+	background: #BDBDBD;
+}
+.butend{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	position: fixed;
+	top: 520px;
+	left: 520px;
+	z-index: 5;
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.butend:hover{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	position: fixed;
+	top: 520px;
+	left: 520px;
+	z-index: 5;
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	border-radius: 8px;
+	background: #E6E6E6;
+	border: 1px solid black;
+	color: black;
+}
+.butend2{
+	font-size: 18px;
+	font-weight: bold;
+	height: 44px;
+	position: fixed;
+	top: 570px;
+	left: 640px;
+	z-index: 5;
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.butend2:hover{
+	font-size: 18px;
+	font-weight: bold;
+	height: 44px;
+	position: fixed;
+	top: 570px;
+	left: 640px;
+	z-index: 5;
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	border-radius: 8px;
+	background: #E6E6E6;
+	border: 1px solid black;
+	color: black;
+}
+.weaponinf{
+	background: #D8D8D8;
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 1px;
+}
+.menustart{
+	position:fixed;
+	z-index:5;
+	top:0px;
+	left:0px;
+	height: 720px;
+	width: 1280px;
+	background: #BDBDBD;
+}
+.next{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background: url(next.png);
+	border: none;
+}
+.before{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background: url(before.png);
+	border: none;
+}
+.mainimg{
+	display:inline-block;
+	height:160px;
+	width:160px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.kostil{
+	display:inline-block;
+	height:160px;
+	width:160px;
+	background: #D8D8D8;
+	border-radius: 8px;
+}
+.knopki0{
+	display:inline-block;
+	padding: 4px;
+	height:auto;
+	width:228px;
+	margin-left:526px;
+	margin-top:110px;
+	border: 2px solid black;
+	background: #BDBDBD;
+	border-radius: 8px;
+}
+.startgame{
+	margin-top: 2px;
+	display:inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	padding: 1px;
+	width: 226px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.startgame:hover{
+	display:inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	padding: 1px;
+	width: 226px;
+	background: #E6E6E6;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.secret{
+	display: none;
+	margin-left: 16px;
+	border: 1px solid black;
+	background:  url(secret.jpg);
+	height: 138px;
+	width: 200px;
+}
+.allin{
+	background: #BDBDBD;
+	margin: 4px;
+	overflow: auto;   
+	height: 400px;
+}
+.allin2{
+	background: #BDBDBD;
+}
+.dialogue{
+	background: #D8D8D8;
+}
+.table1{
+	width: 950px;
+	border: 2px solid white;
+	border-color: black;
+	background: #BDBDBD;
+}
+.butend3{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	position: fixed;
+	top: 570px;
+	left: 400px;
+	z-index: 5;
+	padding: 1px;
+	margin: 4px;
+	width: 226px;
+	background: #BDBDBD;
+	border-radius: 8px;
+	border: 1px solid black;
+	color: black;
+}
+.butend4{
+	display: none;
+	font-size: 22px;
+	font-weight: bold;
+	height: 40px;
+	position: fixed;
+	top: 630px;
+	left: 400px;
+	z-index: 5;
+	padding: 1px;
+	margin: 4px;
+	width: 460px;
+	background: #BDBDBD;
+	color: red;
+}
+.coin{
+	margin-top: 3px;
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	background: url(monet.png);
+}
+.hearth{
+	margin-top: 3px;
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	background: url(hearth.png);
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html" charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+	<title>Зловещий замок</title>
+</head>
+<body id="bod">
+	<div class="menu" id="menu">
+	<div id="room">
+	</div>
+	<div class="infohero" id="infohero">
+	</div>
+	<div class="bvm" id="infohero2">
+	</div>
+	<div class="bvm" id="infohero3">
+	</div>
+	<div class="weaponinf" id="weaponinformation">
+	</div>
+	</div>
+	<div class="bg">
+	</div>
+	<div class="bloc" id="blocc">		
+	</div>
+	<div class="battle" id="battle">	
+		<div class="battletop" id="battletop">
+			<div class="heroimage" id="heroimage">
+			</div>
+			<div class="heroimagep" id="heroname">
+			</div>
+			<div class="enemyimage" id="enemyimage">
+			</div>
+			<div class="enemyimagep" id="enemy_name">
+			</div>
+			<div class="dead" id="dead">
+			</div>
+		</div>
+		<div class="battlebottom" id="battlebottom">
+			<input type="button" class="bbutt1" value="Атаковать слабой атакой" id="attack1">
+			<br>
+			<input type="button" class="bbutt1" value="Атаковать сильной атакой" id="attack2">
+			<br>
+			<input type="button" class="bbutt1" value="Лечить себя" id="attack3">
+			<br>
+			<input type="button" class="bbutt1" value="Использовать особую способность" id="attack4">
+			<br>
+			<input type="button" class="bbutt1" value="Использовать предмет" id="attack5">
+			<br>
+			<input type="button" class="bbuttx" value="Завершить бой" id="attackx">
+			<div id="information" class="information">
+			</div>
+			</div>
+			<br>
+		</div>
+		<div class="save" id="savepoint">
+		</div>
+		<div class="question" id="question_save">
+		Сохранить игру? (Если вы сохраните игру, то сфера уничтожит все предметы и торговца в этой комнате)
+		<input type="button" class="bbutt1" value="Да" id="attacksave1">
+		<br>
+		<input type="button" class="bbutt1" value="Нет" id="attacksave2">
+	</div>
+	<div class="question" id="question_save2">
+		<div id="questions" class="question2">
+		</div>
+		<input type="button" class="bbutt1" value="Продолжить" id="attacksave3">
+	</div>
+	
+	<div class="question" id="question">
+		Обыскать сундук и забрать предмет из него?
+		<input type="button" class="bbutt1" value="Да" id="attack01">
+		<br>
+		<input type="button" class="bbutt1" value="Нет" id="attack02">
+	</div>
+	<div class="question" id="question1_1">
+		Обыскать сундук и забрать реликвию из него?
+		<input type="button" class="bbutt1" value="Да" id="attack11">
+		<br>
+		<input type="button" class="bbutt1" value="Нет" id="attack12">
+	</div>
+	<div class="question" id="question1_2">
+		Обыскать сундук и использовать содержимое?
+		<input type="button" class="bbutt1" value="Да" id="attack21">
+		<br>
+		<input type="button" class="bbutt1" value="Нет" id="attack22">
+	</div>
+	<div class="question" id="question1_3">
+		Обыскать сундук и забрать оружие из него?
+		<input type="button" class="bbutt1" value="Да" id="attack31">
+		<br>
+		<input type="button" class="bbutt1" value="Нет" id="attack32">
+	</div>
+	<div class="question" id="question2_2">
+		<div id="question2" class="question2">
+		</div>
+		<input type="button" class="bbutt1" value="Продолжить" id="attack03">
+	</div>
+	<div class="question" id="question3_3">
+		<div id="question3" class="question2">
+		</div>
+		<input type="button" class="bbutt1" value="Продолжить" id="attack13">
+	</div>
+	<div class="question" id="question4_4">
+		<div id="question4" class="question2">
+		</div>
+		<div id="secret" class="secret">
+		</div>
+		<input type="button" class="bbutt1" value="Продолжить" id="attack23">
+	</div>
+	<div class="question" id="question5_5">
+		<div id="question5" class="question2">
+		</div>
+		<input type="button" class="bbutt1" value="Продолжить" id="attack33">
+	</div>
+	<div class="over" id="over">
+		<div class="over2" id="winornot">
+			ИГРА ОКОНЧЕНА
+		</div>
+		<div class="over3" id="over1">
+		</div>
+		<input type="button" class="butend" value="Вернуться в меню" id="restart">
+		<input type="text" class="butend3" placeholder="Мой_ник" id="nickname_field">
+		<input type="button" class="butend2" value="Сохранить рекорд" id="recordid">
+		<div class="butend4" id="nickname_field2">Ошибка! Ник не соответствует условиям!</div>
+	</div>
+	<div class="menustart" id="menustart"> 
+	<input type="button" value="Инструкция" class="bbuttpro" id="instruction">
+	<input type="button" value="Предыстория" class="bbuttpro" id="lore">
+	<input type="button" value="Об игре" class="bbuttpro" id="about_game">
+	<input type="button" value="Рекорды" class="bbuttpro" id="records">
+	<div class="full_information" id="full_information">
+		<input type="button" value="Закрыть" class="bbuttpro2" id="close">
+		<div id="predinstruct" class="allin2"></div>
+		<div id="instruct" class="allin">
+		</div>
+	</div>
+	<div class="knopki0">
+		<input type="button" class="before" id="before">
+		<div class="kostil">
+		<div class="mainimg" id="mainimg"></div>
+		</div>
+		<input type="button" class="next" id="next">
+		<div class="infohero" id="infohero0">
+		</div>
+		<input type="button" value="Начать новую игру" class="startgame" id="startgame">
+		<input type="button" value="Загрузить игру" class="startgame" id="startgameload">
+		</div>
+</div>
+<div class="question_buy" id="shop">
+		<div id="dialogWithBuy" class="dialogue">Добро пожаловать, путник. Взгляни на мои товары!</div>
+		<input type="button" class="bbuttbuyy" value="Купить случайный предмет за:" id="buy1">
+		<br>
+		<input type="button" class="bbuttbuyy" value="Купить случайное оружие за:" id="buy2">
+		<br>
+		<input type="button" class="bbuttbuyy" value="Купить случайную реликвию за:" id="buy3">
+		<br>
+		<input type="button" class="bbuttbuyy" value="Выход" id="exitBuy">
+	</div>
+	<div class="trade" id="trade1">
+	</div>
+	<audio loop id="audio">
+    <source src="au1.wav" type="audio/wav">
+  </audio>
+  <audio loop id="audio2">
+    <source src="au2.wav" type="audio/wav">
+  </audio>
+</body>
+<script src="script.js">
+</script>
+</html>
